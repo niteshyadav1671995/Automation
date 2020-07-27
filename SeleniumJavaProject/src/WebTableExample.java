@@ -28,9 +28,9 @@ public class WebTableExample {
 		System.out.print("\t"+column.getText());
 	 }
 //  Values displayed in row 1
-	 List<WebElement> firtrow = studentsTable.findElements(By.xpath("//tbody/tr[1]/td"));
+	 List<WebElement> firtRow = studentsTable.findElements(By.xpath("//tbody/tr[1]/td"));
 	 System.out.println("\nValues of row1 are listed below");
-	 for (WebElement rowValue : firtrow) {
+	 for (WebElement rowValue : firtRow) {
 		System.out.print("\t"+rowValue.getText());
 	 }
   }
