@@ -8,7 +8,7 @@ public class DropDownExample {
  public static void main(String args[]){
 	 System.setProperty("webdriver.chrome.driver", "F:\\Jars\\Selenium\\chromedriver_win32\\chromedriver.exe");
 	 WebDriver driver = new ChromeDriver();
-//  Enter you file location here, or download it from this link: 
+//  Enter you file location here, or download it from this link: https://github.com/niteshyadav1671995/Automation/blob/master/DropDown.html
 	 driver.get("F:\\practice\\DropDown.html");
 	 WebElement countryElement = driver.findElement(By.id("country"));
 	 Select countryDropDown = new Select(countryElement);
